@@ -1,0 +1,24 @@
+#address {
+  float: right;
+  width: 60%;
+}
+#add2 {
+  float: left;
+  width: 40%;
+  
+}
+#contianer{
+   width: 100%;
+
+}
+#left {
+  float: left;
+  width: 50%;
+  
+  
+}
+ #right{
+  float: right;
+ width: 50%;
+  
+}
