@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Celsius to Fahrenheit Converter</title>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <p>Type Celsius field number for the temperature in Fahrenheit:</p>
+    
+    <p>
+      <label>Celsius</label>
+      <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)
+      " onchange="temperatureConverter(this.value)">
+    </p>
+    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+    
+    <script>
+    function temperatureConverter(valNum) {
+      valNum = parseFloat(valNum);
+      document.getElementById("outputFahrenheit").innerHTML=(valNum * 9 / 5)+32;
+    }
+</script>
+</html>
