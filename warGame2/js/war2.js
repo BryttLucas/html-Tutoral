@@ -27,8 +27,8 @@ const loser = () => {
 const tie = () => {
     pointValue = pointValue == 1 ? 5 : pointValue + 5;
     document.getElementById("msg").style.display = "unset";
-    document.getElementById("war").innerText = "War!"
-    display()
+    document.getElementById("war").innerText = "War!";
+    display();
 }
 const display = () => {
     document.getElementById("myscore").innerText = mypoints;
@@ -38,6 +38,6 @@ const display = () => {
 }
 const reset = () => {
     document.getElementById("msg").style.display = "none";
-    document.getElementById("war").innerText = "Tie"
+    document.getElementById("war").innerText = "Tie";
     pointValue = 1;
 }
